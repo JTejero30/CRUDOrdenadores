@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: larger;
+
+    margin-top: 6rem;
+}
+
+
+thead{
+    background-color:#9CC987;
+
+}
+tr:nth-child(even){ /*solo colorea las lineas impares*/
+    background-color: #C4FDAA;
+}
+button{
+    cursor: pointer;
+}
